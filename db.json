@@ -19,6 +19,7 @@
         {
           "id": 1,
           "date": "2025/07/20",
+          "status": "free",
           "shifts": {
             "morning": [
               {
