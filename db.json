@@ -1,9 +1,43 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "providers": [
+    {
+      "name": "Foad Ebrahimi",
+      "image": "",
+      "information": {
+        "jobTitle": "Pflegefachkraft",
+        "phoneNumber": "",
+        "address": "Iran",
+        "bio": "Mit mehr als 15 Jahren Erfahrung in der Erforschung der menschlichen Psychologie und des menschlichen Verhaltens ist Dr. Jones ein Experte für die Behandlung von Stimmungsstörungen und Angststörungen.",
+        "personal": {
+          "degree": "University of California, San Francisco. Medical degree",
+          "experiences": "Arbeitete in psychiatrischen Kliniken, Privatpraxen und akademischen medizinischen Zentren. Arbeitete in psychiatrischen Kliniken, Privatpraxen und akademischen medizinischen Zentren.",
+          "achievements": "Mitglied der American Psychiatric Association (FAPA)"
+        }
+      },
+      "Dates": [
+        {
+          "id": 1,
+          "date": "2025/07/20",
+          "shifts": {
+            "morning": [
+              {
+                "time": "12:00-14:00",
+                "status": "fill"
+              },
+              {
+                "time": "16:00-20:00",
+                "status": "free"
+              }
+            ],
+            "afternoon": [
+              {
+                "time": "16:00-20:00",
+                "status": "free"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
 }
